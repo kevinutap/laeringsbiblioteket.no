@@ -1,0 +1,314 @@
+﻿/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+.woocommerce-product-gallery {
+display:none !important;
+}
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+float: left;
+}
+.woocommerce div.product div.summary{
+	width: 100% !important;
+	margin-bottom: 0 !important;
+}
+.woocommerce-ordering {
+	z-index: 1 !important
+}
+
+.woof_submit_search_form_container {
+    float: left;
+}
+
+.woocommerce ul.products li.product .woo-entry-inner li.image-wrap .woo-entry-image {
+    display: none !important;
+}
+.woocommerce ul.products.list li.product .woo-entry-image {
+    display: none !important;
+}
+
+.products .product .tinv-wraper.tinv-wishlist {
+
+}
+
+.woocommerce ul.products.list li.product .woo-entry-inner {
+    width: 100% !important;
+}
+
+.woocommerce ul.products li.product .woo-entry-inner li{
+    text-align: left !important;
+}
+
+.widget.widget-woof {
+    line-height: 1em;
+}
+
+.woocommerce ul.products.list li.product li.title a {
+    font-size: 18px !important;
+	  font-weight: bold !important;
+}
+
+.woocommerce ul.products li.product li.title a {
+    font-weight: bold !important;
+}
+
+/* read more 
+.woocommerce ul.products li.product .woo-entry-inner li:last-child {
+    display: none !important;
+}
+*/
+
+a.button.product_type_simple.ajax_add_to_cart {
+    background-color: #13aff0 !important;
+    color: #fff !important;
+}
+
+a.wishlist_products_counter {
+    font-size: 12px !important;
+}
+
+.products .product .tinv-wraper.tinv-wishlist {
+ position:absolute !important;
+ top:-4px !important;
+ right:0px !important;
+ visibility:visible !important;
+ -moz-opacity:1 !important;
+ -webkit-opacity:1 !important;
+ opacity:1 !important;
+}
+
+.tinv-wishlist .product-thumbnail {
+	display: none;
+}
+
+.tinvwl_add_to_wishlist_button {
+	font-size: 12px;
+}
+
+/*.woocommerce-ordering {
+    display: none;
+}*/
+
+p.return-to-shop {
+    display: none;
+}
+
+
+div#searchform-dropdown {
+    background-color: #ffffff !important;
+}
+
+/*
+input#s {
+    border: 1px solid #929292 !important;
+}*/
+
+section.elementor-element.elementor-element-6c68e74.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section {
+    background-color: #f4f4f4;
+}
+/*.dropdown-menu ul li a.menu-link{
+	text-transform: none !important;
+}*/
+
+#publisert {
+  text-align: left;
+	font-size: 12px;
+	padding: 12px 0;
+}
+
+div#fag {
+	text-align: left;
+	font-size: 12px;
+  margin-bottom: 12px;
+}
+
+body .oceanwp-row .col {
+	 padding: 0px !important;
+	padding-right: 1em !important;
+}
+
+.orderby option[value="popularity"], .orderby option[value="rating"], .orderby option[value="date"], .orderby option[value="price"], .orderby option[value="price-desc"]{
+   display: none;
+}
+
+/*ta bort linje*/
+.woocommerce .oceanwp-toolbar{
+	border-top: 0px !important;
+border-bottom: 0px !important;
+}
+
+/*ta bort category*/
+ul.woo-entry-inner.clr > li.category {
+    display: none !important;
+}
+
+.product_meta {
+border-top: 0px !important;
+}
+
+div.cat a {
+
+    /*background-color: #cee1a5;
+    color: black;
+    padding: 2px 8px 2px 8px;
+    border-radius: 10px;*/
+		  color: #000;
+    margin: 0px 8px 0px 8px;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #ffe000;
+
+}
+
+.owp-product-nav{
+	display: none;
+}
+
+div.cat_result a {
+    background-color: #cee1a5;
+    color: #434343 !important;
+    padding: 2px 8px 2px 8px;
+    border-radius: 10px;
+}
+
+div.cat_result_list a {
+    border-bottom: solid black 1px;
+	/*font-weight: bold;*/
+	padding-bottom:2px;
+	margin-right: 10px;
+}
+
+
+.woocommerce ul.products li.product .button {
+border: 0px !important;
+}
+
+/*fjern category fra single product*/
+div.product_meta {
+    display: none;
+}
+
+/*single product - title margin padding*/
+.single .entry-title {
+    padding: 0px !important;
+    margin: 0px !important;
+	border-bottom: 0px;
+}
+
+/*single product - favoritt til høyre*/
+div.tinv-wraper.woocommerce.tinv-wishlist.tinvwl-after-add-to-cart {
+    text-align: right;
+}
+
+/*fjern product beskrivelse tab*/
+ul.tabs.wc-tabs {
+    display: none !important;
+}
+
+/*product beskrivelse*/
+.woocommerce div.product .woocommerce-tabs .panel {
+padding: 1em !important;
+margin: 0px !important;
+background: #eaeaea;
+border-radius: 8px;
+}
+
+/*single product - mellom beskrivelse og forfatter*/
+.woocommerce-tabs.wc-tabs-wrapper {
+    padding-bottom: 30px;
+}
+
+td.product-thumbnail{
+	display: none !important;
+}
+
+/*hightlight metodisk kvalitetvurdering*/
+div#metodisk_kvalitetsvurdering {
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #eaeaea;
+    border-radius: 8px;
+}
+
+/*Single product-Beskrivelse*/
+div#tab-description>h2 {
+    font-weight: bold;
+}
+
+h3#emnebibliotek {
+    margin-bottom: 7px !important;
+}
+
+.btn-wrap.clr {
+    display: none !important;
+}
+
+li.woo-desc, li.inner {
+    display: none !important;
+}
+
+nav.oceanwp-grid-list {
+    display: none !important;
+}
+
+.woocommerce ul.products.list li.product{
+	border-bottom: 2px solid #ffe000  ;
+}
+
+ul.page-numbers li {
+    display: inline !important;
+}
+
+/*.widget.widget-woof h4.widget-title{
+text-transform: none !important;
+}*/
+
+/*Mobile filter on top*/
+section#mobilefilter div.elementor-column-wrap {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+div#mobilefiltertext div.elementor-tab-title{
+	    padding: 12px 0px 12px 0px !important;
+}
+
+@media only screen and (max-width: 959px){
+#main #content-wrap.container {
+    padding-top: 0px !important;
+}
+}
+
+.oceanwp-row{
+	margin:0px !important;
+}
+
+ul.result-count {
+    display: none;
+}
+
+section.related.products > ul.products.oceanwp-row.clr.grid > li.product {
+padding-right: 12px !important;
+}
+
+@media print {
+body { background:white; color:black; margin:20px; }
+header {display:none; }
+div.tinv-wraper.woocommerce.tinv-wishlist.tinvwl-after-add-to-cart{display:none; }
+div.a2a_kit.a2a_kit_size_20.addtoany_list{display:none; }
+div#tilbaketiltreffliste{display:none; }
+section.related.products{display:none; }
+#footer {}
+a:link:after, a:visited:after {
+    content: "";
+}
+}
